@@ -114,9 +114,9 @@ export const Todo = () => {
                                 <ul>
                                     <li>
                                         <h2>{data.tit}</h2>
+                                        <br></br>
                                         <p> {data.discr}
-                                            <br></br>
-                                            {date.toString()}</p>
+                                            </p>
                                         <button className='btn' onClick={() => deleteTodo(i)}>-</button>
                                         <button className='btn' onClick={() => doneTask(i)}>D</button>
                                         <button className='btn' onClick={() => editTodo(i)}>E</button>
