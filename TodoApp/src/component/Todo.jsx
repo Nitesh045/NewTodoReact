@@ -85,14 +85,14 @@ export const Todo = () => {
             <div className="first-container">
                 <form onSubmit={addTodo}>
                     <div className="main">
-                        <div className="titel">
-                            <label htmlFor='title'>Titel</label>
+                        <div className="tittle">
+                            <label htmlFor='title'>Tittle</label>
                             <br></br>
                             <input type='text' value={title} placeholder='Enter Your Todo ' name='title' onChange={(e) => setTitle(e.target.value)}></input>
                         </div>
 
                         <div className="disc">
-                            <label htmlFor='Describation'>Discribation</label>
+                            <label htmlFor='Describation'>Description</label>
                             <br></br>
                             <input type='text' value={dis} placeholder='About your Todo' name='dis ' onChange={(e) => setDis(e.target.value)}></input>
                         </div>
